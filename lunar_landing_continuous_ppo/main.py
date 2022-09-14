@@ -10,7 +10,7 @@ but only visualization visualize mode can be used.
 """
 MODE = "test"
 MODEL_SAVE_FILE = "models"
-TEST_WEIGHT_FILE = "best_243.pth"
+TEST_WEIGHT_FILE = "reward_243.pth"
 MEMORY_CAPACITY = 4096
 BATCH_SIZE = 256
 EPOCHS = 2500
