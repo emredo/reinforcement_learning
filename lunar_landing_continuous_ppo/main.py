@@ -8,8 +8,8 @@ from collections import deque
 'train' 'test' and 'visualize' train also visualizes the results, 
 but only visualization visualize mode can be used.
 """
-MODE = "visualize"
-MODEL_SAVE_FILE = "train1"
+MODE = "test"
+MODEL_SAVE_FILE = "models"
 TEST_WEIGHT_FILE = "best_243.pth"
 MEMORY_CAPACITY = 4096
 BATCH_SIZE = 256
