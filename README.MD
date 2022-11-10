@@ -21,7 +21,7 @@ PPO applied method. I'm working on it.
 </section>
 
 
-# About Installation and requirements
+# Installation and requirements
 ```
 torch == 1.7.0
 torchviz = 0.0.2
@@ -40,7 +40,7 @@ Some packages may have been forgotten, if you face errors, feel free to create i
 After 3000 epoch training
 </p>
 
-### About experiment
+### Experiment Details
 
 - Episode is terminated when total reward is 800.
 - 3000 epoch was enough in my training.
@@ -55,7 +55,7 @@ Reward by epoch during training
 
 
 
-### About Backbone
+### Network Backbone Details
 Actor-Critic Network has 1 input head. This input head includes 3 Convolution layer with 12,12,12 filter number, also 2 times max pooling was applied.
 After all convolution processes, the flatted matrix is sent 3 different out heads. These heads are *mean, variance* and *value* heads.
 The mean head predicts n mean value between -1 and 1 (tanh activation). Variance predicts n variance value between 0 and inf. (softplus activation).
